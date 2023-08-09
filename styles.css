@@ -102,7 +102,7 @@ li {
 }
 
 
-@supports (background-image: linear-gradient(to top, #ff3419 0% , #ffd20b 100%)){
+@supports (background-image: linear-gradient(to top, #ff3419 0% , #ffd20b 100%)) and (background-clip: text){
 
     #gamejams h2{
         background-color:#ff9812;
