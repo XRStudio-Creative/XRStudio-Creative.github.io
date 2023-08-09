@@ -20,28 +20,28 @@ body {
     /* background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
-    width: 800px;
-    height: 800px;
+    width: 880px;
+    height: 880px;
 }
 
 #test ul {
-    margin-top:220px;
+    margin-top:240px;
     margin-left:40px
 }
 
-/*
+
 @media screen and ( max-width:800px ){
     #test {
-        width: 100vw;
-        height: 100vw;
+        width: 110vw;
+        height: 110vw;
     }
  
     #test ul {
-        margin-top: 28vw;
+        margin-top: 30vw;
         margin-left: 40px
     }
 }
-*/
+
 
 
 #test a {
