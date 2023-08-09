@@ -100,10 +100,18 @@ li {
     color:#ff9812;
     background-color:#ff9812;
     background-image: linear-gradient(to top, #ff3419 0% , #ffd20b 100%);
+    background-image: -webkit-linear-gradient(to top, #ff3419 0% , #ffd20b 100%);
+    background-image: -moz-linear-gradient(to top, #ff3419 0% , #ffd20b 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     display: flex;
+}
+
+
+@supports (background-image: -webkit-linear-gradient();){
+
+
 }
