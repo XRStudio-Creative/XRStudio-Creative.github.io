@@ -1,0 +1,66 @@
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#test {
+    background-image: url("images/XRStudio-Cyberpunk.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    width: 800px;
+    height: 800px;
+}
+#test a {
+    color:aliceblue;
+    text-decoration: none;
+    font-size: 100%;
+    padding:6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-shadow: 0px 0px 3px black;
+    background-color: #322e3d;
+    opacity: 0.8;
+}
+#test a:hover {
+     background-color: black;
+     color:chartreuse;
+}
+ul {
+    list-style-type: none;
+}
+ul:before {
+    content:attr(aria-label);
+    font-size:110%;
+    margin-left:-34px;
+    color:aliceblue;
+    text-shadow: 0px 0px 3px black;
+    background-color: black;
+    padding-left:18px;
+    padding-right:18px;
+    padding-top:6px;
+    padding-bottom:6px;
+    opacity: 0.8;
+}
+li {
+    padding:4px;
+    margin-top:6px;
+}
+
+#first {
+    margin-top: 16px;
+}
+
+
+#gamejams a {
+    color: #ab9dd1;
+    text-decoration: none;
+    font-size: 100%;
+    text-shadow: 0px 0px 3px black;
+    opacity: 0.8;
+}
+#gamejams a:hover {
+     color:chartreuse;
+}
+
