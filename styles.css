@@ -64,3 +64,13 @@ li {
      color:chartreuse;
 }
 
+#gamejams h2{
+    background-color:#ff9812;
+    background-image: linear-gradient(to top, #ff3419 0% , #ffd20b 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+}
