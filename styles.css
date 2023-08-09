@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    padding: 0px;
  }
 
 
@@ -13,7 +14,10 @@ body {
     margin: 0%;
     padding: 0%;
     background-image: url("images/XRStudio-Cyberpunk.png");
-    background-position: center; /* Center the image */
+    background-size: 800px 800px;
+    background-clip: padding-box;
+    background-position: left;
+    /* background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
     width: 800px;
@@ -25,6 +29,7 @@ body {
     margin-left:40px
 }
 
+/*
 @media screen and ( max-width:800px ){
     #test {
         width: 100vw;
@@ -36,7 +41,7 @@ body {
         margin-left: 40px
     }
 }
-
+*/
 
 
 #test a {
