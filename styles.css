@@ -1,10 +1,15 @@
+body {
+    margin: 0px;
+    padding: 0px;
+ }
+
 
 .center {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-#social_links {
+#test {
     display: flex;
     margin: 0%;
     padding: 0%;
@@ -19,26 +24,27 @@
     height: 880px;
 }
 
-#social_links ul {
+#test ul {
     margin-top:240px;
     margin-left:40px
 }
 
 
 @media screen and ( max-width:800px ){
-    #social_links {
+    #test {
         width: 110vw;
         height: 110vw;
     }
  
-    #social_links ul {
+    #test ul {
         margin-top: 30vw;
         margin-left: 40px
     }
 }
 
 
-#social_links a {
+
+#test a {
     color:aliceblue;
     text-decoration: none;
     font-size: 100%;
@@ -49,7 +55,7 @@
     background-color: #322e3d;
     opacity: 0.8;
 }
-#social_links a:hover {
+#test a:hover {
      background-color: black;
      color:chartreuse;
 }
@@ -78,6 +84,7 @@ li {
     margin-top: 16px;
 }
 
+
 #gamejams a {
     color: #ab9dd1;
     text-decoration: none;
@@ -94,7 +101,8 @@ li {
     display: flex;
 }
 
-@supports (background-image: linear-gradient(to top, #ff3419 0% , #ffd20b 100%)) and (background-clip: text){
+
+@supports (background-image: linear-gradient(to top, #ff3419 0% , #ffd20b 100%)) {
 
     #gamejams h2{
         background-color:#ff9812;
