@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
 }
-#social-links {
+#social_links {
     display: flex;
     margin: 0%;
     padding: 0%;
@@ -19,27 +19,26 @@
     height: 880px;
 }
 
-#social-links ul {
+#social_links ul {
     margin-top:240px;
     margin-left:40px
 }
 
 
 @media screen and ( max-width:800px ){
-    #social-links {
+    #social_links {
         width: 110vw;
         height: 110vw;
     }
  
-    #social-links ul {
+    #social_links ul {
         margin-top: 30vw;
         margin-left: 40px
     }
 }
 
 
-
-#social-links a {
+#social_links a {
     color:aliceblue;
     text-decoration: none;
     font-size: 100%;
@@ -50,7 +49,7 @@
     background-color: #322e3d;
     opacity: 0.8;
 }
-#social-links a:hover {
+#social_links a:hover {
      background-color: black;
      color:chartreuse;
 }
