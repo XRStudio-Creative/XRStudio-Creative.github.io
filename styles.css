@@ -117,7 +117,7 @@ li {
         background-image: linear-gradient(to top, #ff3419 0% , #ffd20b 100%);
         background-image: -webkit-linear-gradient(to top, #ff3419 0% , #ffd20b 100%);
         background-image: -moz-linear-gradient(to top, #ff3419 0% , #ffd20b 100%);
-        background-clip: text;
+        /* background-clip: text;
         -webkit-background-clip: text;
         -moz-background-clip: text;
         /* -webkit-text-fill-color: transparent;
