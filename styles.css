@@ -101,11 +101,15 @@ li {
 }
 
 #gamejams h2{
-    /* color:#ff9812; */
-    color: transparent;
+    color:#ff9812;
     display: flex;
 }
 
+@supports (color: transparent){
+    #gamejams h2{
+        color: transparent;
+    }
+}
 
 @supports (background-image: linear-gradient(to top, #ff3419 0% , #ffd20b 100%)){
     #gamejams h2{
