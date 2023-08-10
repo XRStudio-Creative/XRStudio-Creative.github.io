@@ -1,4 +1,4 @@
-body {
+html, body {
     margin: 0px;
     padding: 0px;
  }
@@ -115,22 +115,15 @@ li {
 
 @supports (-webkit-background-clip: text) or (-moz-background-clip: text) {
     #gamejams h2{
-        /* color: transparent; */
-        /* background-color:#ff9812; */
-        
-        /* background-image: linear-gradient(to top, #ff3419 0% , #ffd20b 100%);
+        background-color:#ff9812;
+        background-image: linear-gradient(to top, #ff3419 0% , #ffd20b 100%);
         background-image: -webkit-linear-gradient(to top, #ff3419 0% , #ffd20b 100%);
         background-image: -moz-linear-gradient(to top, #ff3419 0% , #ffd20b 100%);
-        */
-        background-image: url('images/XRStudio-Cyberpunk.png');
-        /* background-clip: text; */
-        -webkit-text-fill-color:transparent;
-        -webkit-background-clip:text;
-        /*        
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
         -moz-text-fill-color: transparent;
         -moz-background-clip: text;
-        */
-
+        /* fallback text color */
+        color: #ff9812;
     }
-
 }
