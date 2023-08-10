@@ -101,12 +101,13 @@ li {
 }
 
 #gamejams h2{
-    color:#ff9812;
+    /* color:#ff9812; */
+    color: transparent;
     display: flex;
 }
 
 
-@supports (background-image: linear-gradient(to top, #ff3419 0% , #ffd20b 100%)) {
+@supports (background-image: linear-gradient(to top, #ff3419 0% , #ffd20b 100%)){
     #gamejams h2{
         background-color:#ff9812;
         background-image: linear-gradient(to top, #ff3419 0% , #ffd20b 100%);
@@ -115,8 +116,8 @@ li {
         background-clip: text;
         -webkit-background-clip: text;
         -moz-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        -moz-text-fill-color: transparent;
+        /* -webkit-text-fill-color: transparent;
+        -moz-text-fill-color: transparent; */
     }
 
 }
