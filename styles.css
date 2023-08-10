@@ -101,7 +101,7 @@ li {
 }
 
 #gamejams h2{
-   /* color:#ff9812; */
+    color:#ff9812;
     display: flex;
 }
 
@@ -113,25 +113,21 @@ li {
 }
 */
 
+
 @supports (-webkit-background-clip: text) or (-moz-background-clip: text) {
     #gamejams h2{
-        background-color:#ff9812;
         /*
+        background-color:#ff9812;
         background-image: linear-gradient(to top, #ff3419 0% , #ffd20b 100%);
         background-image: -webkit-linear-gradient(to top, #ff3419 0% , #ffd20b 100%);
         background-image: -moz-linear-gradient(to top, #ff3419 0% , #ffd20b 100%);
-        */
-        background: linear-gradient(to top, #ff3419 0% , #ffd20b 100%);
+         background-image: linear-gradient(to top, #ff3419 0% , #ffd20b 100%);
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
-        /*
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
         -moz-text-fill-color: transparent;
         -moz-background-clip: text;
         */
-
-        /* fallback text color */
-        color: transparent;
     }
 }
