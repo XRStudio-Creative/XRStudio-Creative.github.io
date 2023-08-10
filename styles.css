@@ -1,15 +1,10 @@
-body {
-    margin: 0px;
-    padding: 0px;
- }
-
 
 .center {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-#test {
+#social-links {
     display: flex;
     margin: 0%;
     padding: 0%;
@@ -24,19 +19,19 @@ body {
     height: 880px;
 }
 
-#test ul {
+#social-links ul {
     margin-top:240px;
     margin-left:40px
 }
 
 
 @media screen and ( max-width:800px ){
-    #test {
+    #social-links {
         width: 110vw;
         height: 110vw;
     }
  
-    #test ul {
+    #social-links ul {
         margin-top: 30vw;
         margin-left: 40px
     }
@@ -44,7 +39,7 @@ body {
 
 
 
-#test a {
+#social-links a {
     color:aliceblue;
     text-decoration: none;
     font-size: 100%;
@@ -55,7 +50,7 @@ body {
     background-color: #322e3d;
     opacity: 0.8;
 }
-#test a:hover {
+#social-links a:hover {
      background-color: black;
      color:chartreuse;
 }
@@ -84,7 +79,6 @@ li {
     margin-top: 16px;
 }
 
-
 #gamejams a {
     color: #ab9dd1;
     text-decoration: none;
@@ -100,7 +94,6 @@ li {
     color:#ff9812;
     display: flex;
 }
-
 
 @supports (background-image: linear-gradient(to top, #ff3419 0% , #ffd20b 100%)) and (background-clip: text){
 
