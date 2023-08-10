@@ -9,36 +9,37 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 #test {
     display: flex;
     margin: 0%;
     padding: 0%;
     background-image: url("images/XRStudio-Cyberpunk.png");
-    background-size: 800px 800px;
+    /* background-size: 1000px 1000px; */
     background-clip: padding-box;
     background-position: left;
     /* background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
-    width: 880px;
-    height: 880px;
+    width: 960px;
+    height: 960px;
 }
 
 #test ul {
-    margin-top:240px;
-    margin-left:40px
+    margin-top:260px;
+    margin-left: 69px;
 }
 
 
-@media screen and ( max-width:800px ){
+@media screen and ( max-width:700px ){
     #test {
-        width: 110vw;
-        height: 110vw;
+        width: 140vw;
+        height: 140vw;
     }
  
     #test ul {
-        margin-top: 30vw;
-        margin-left: 40px
+        margin-top: 38vw;
+        margin-left: 24px
     }
 }
 
@@ -106,7 +107,6 @@ li {
 
 
 @supports (background-image: linear-gradient(to top, #ff3419 0% , #ffd20b 100%)) {
-
     #gamejams h2{
         background-color:#ff9812;
         background-image: linear-gradient(to top, #ff3419 0% , #ffd20b 100%);
