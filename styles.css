@@ -115,14 +115,16 @@ li {
 
 @supports (-webkit-background-clip: text) or (-moz-background-clip: text) {
     #gamejams h2{
+        color: transparent;
         background-color:#ff9812;
         background-image: linear-gradient(to top, #ff3419 0% , #ffd20b 100%);
         background-image: -webkit-linear-gradient(to top, #ff3419 0% , #ffd20b 100%);
         background-image: -moz-linear-gradient(to top, #ff3419 0% , #ffd20b 100%);
         -webkit-background-clip: text;
         -moz-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        /* -webkit-text-fill-color: transparent;
         -moz-text-fill-color: transparent;
+        */
     }
 
 }
