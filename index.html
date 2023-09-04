@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>XRStudio</title>
     <link rel="stylesheet" href="styles.css">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
 </head>
 
 <body style="font-family: Arial, Helvetica, sans-serif; background-color: black;">
@@ -46,6 +47,7 @@
     </div>
 </div>
 <br>
+
 <div class="center">
     <h2 style="color:#ff9812;">Platforms and Game Engines</h2>
 </div>
@@ -62,6 +64,12 @@
 <div class="center"><img src="/images/FN-CreatedInFortnite_Horizontal_JP.png" style="max-width: 200px;margin:20px"></div>
 <br>
 <br>
+<div class="center">
+    <model-viewer id="#model-viewer" src="./3d/Horizonal Logo.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls shadow-intensity="1">
+    </model-viewer>
+</div>
+
+
 </body>
 
 </html>

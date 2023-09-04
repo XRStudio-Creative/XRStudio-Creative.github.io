@@ -105,6 +105,11 @@ li {
     display: flex;
 }
 
+model-viewer{
+    width:600px;
+    height:600px;
+}
+
 /*
 @supports (color: transparent){
     #gamejams h2{
