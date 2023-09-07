@@ -3,6 +3,10 @@ html, body {
     padding: 0px;
  }
 
+body {
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: black;
+}
 
 .center {
     display: flex;
@@ -108,6 +112,8 @@ li {
 model-viewer{
     width:600px;
     height:600px;
+    margin-bottom: 300px;
+    margin-top: -200px;
 }
 
 /*
