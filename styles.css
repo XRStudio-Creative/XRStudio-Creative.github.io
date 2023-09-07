@@ -118,6 +118,39 @@ model-viewer{
 }
 */
 
+.video-wrapper {
+    /* Telling our absolute positioned video to 
+    be relative to this element */
+    position: relative;
+  
+    width: 400px;
+    height: 200px;
+  
+    /* Will not allow the video to overflow the 
+    container */
+    overflow: hidden;
+  
+    /* Centering the container's content vertically 
+    and horizontally */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: clamp(600px,960px,960px);
+    height: auto;
+    aspect-ratio: 16/9;
+  }
+
+  video {
+    /** Simulationg background-size: cover */
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
 
 @supports (-webkit-background-clip: text) or (-moz-background-clip: text) {
     #gamejams h2{
