@@ -177,22 +177,23 @@ model-viewer{
 }
 
 .zoom {
-    transition: transform .2s;
+    transition: transform .3s;
     /*Animation*/:;
-    -webkit-transition: transform .2s;
-    -moz-transition: transform .2s;
-    -ms-transition: transform .2s;
-    -o-transition: transform .2s;
+    -webkit-transition: transform .3s;
+    -moz-transition: transform .3s;
+    -ms-transition: transform .3s;
+    -o-transition: transform .3s;
 }
 
 .zoom:hover {
-    transform: scale(1.05);
+    transform: scale(1.05) translate(15px, 0px);
     /*(150%zoom-Note: if the zoom is too large, it will go outside of the viewport) */  ;
-    -webkit-transform: scale(1.05);
-    -moz-transform: scale(1.05);
-    -ms-transform: scale(1.05);
-    -o-transform: scale(1.05);
+    -webkit-transform: scale(1.05) translate(15px, 0px);
+    -moz-transform: scale(1.05) translate(15px, 0px);
+    -ms-transform: scale(1.05) translate(15px, 0px);
+    -o-transform: scale(1.05) translate(15px, 0px);
 }
+
 
 strong {
     font-size: 20px;
@@ -200,4 +201,7 @@ strong {
 
 p {
     line-height: 22px;
+}
+.zoom:hover strong {
+    color:chartreuse;
 }
