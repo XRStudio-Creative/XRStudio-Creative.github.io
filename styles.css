@@ -200,7 +200,8 @@ strong {
 }
 
 p {
-    line-height: 22px;
+    line-height: 24px;
+    padding-bottom:20px;
 }
 .zoom:hover strong {
     color:chartreuse;
