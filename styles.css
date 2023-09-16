@@ -25,12 +25,13 @@ body {
     /* background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
-    width: 1000px;
-    height: 1000px;
+    width: 1080px;
+    height: 1080px;
+
 }
 
 #test ul {
-    margin-top:270px;
+    margin-top:290px;
     margin-left: 69px;
 }
 
@@ -90,7 +91,7 @@ li {
 }
 
 #gamejams {
-    margin-top:
+    margin-top: 30px;
     margin-left: 24px;
 }
 
@@ -146,7 +147,7 @@ model-viewer{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: clamp(600px,1000px,1000px);
+    width: clamp(600px,1080px,1080px);
     height: auto;
     aspect-ratio: 16/9;
   }
