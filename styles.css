@@ -90,6 +90,7 @@ li {
 }
 
 #gamejams {
+    margin-top:
     margin-left: 24px;
 }
 
@@ -100,8 +101,11 @@ li {
     text-shadow: 0px 0px 3px black;
     opacity: 0.8;
 }
+
+
 #gamejams a:hover {
-     color:chartreuse;
+     /* color:chartreuse; */
+    text-decoration: underline;     
 }
 
 #gamejams h2{
@@ -200,9 +204,16 @@ strong {
 }
 
 p {
-    line-height: 24px;
+    line-height: 25px;
     padding-bottom:20px;
 }
-.zoom:hover strong {
-    color:chartreuse;
+
+/*
+.zoom strong {
+    color:rgb(151, 166, 253);    
 }
+
+.zoom:hover strong {
+    color:rgb(151, 166, 253);
+}
+*/
