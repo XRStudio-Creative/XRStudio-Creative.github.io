@@ -31,8 +31,8 @@ body {
 }
 
 #test ul {
-    margin-top:290px;
-    margin-left: 69px;
+    margin-top: 290px;
+    margin-left: 90px;
 }
 
 
@@ -55,11 +55,16 @@ body {
     text-decoration: none;
     font-size: 100%;
     padding:6px;
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
     text-shadow: 0px 0px 3px black;
     background-color: #322e3d;
-    opacity: 0.8;
+    opacity: 0.7;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 #test a:hover {
      background-color: black;
@@ -75,14 +80,20 @@ ul:before {
     color:aliceblue;
     text-shadow: 0px 0px 3px black;
     background-color: black;
-    padding-left:18px;
-    padding-right:18px;
+    padding-left:26px;
+    padding-right:26px;
     padding-top:6px;
     padding-bottom:6px;
     opacity: 0.8;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
 }
+
 li {
-    padding:4px;
+    padding:6px;
     margin-top:6px;
 }
 
@@ -206,7 +217,15 @@ strong {
 
 p {
     line-height: 25px;
-    padding-bottom:20px;
+    padding:20px;
+    background-color: #322e3d;
+    opacity: 0.7;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+
 }
 
 /*
