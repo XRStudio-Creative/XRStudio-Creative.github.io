@@ -1,0 +1,116 @@
+/* styles.css */
+
+/* Base styles for the entire footer */
+.footer {
+    max-width: 1000px; /* Set the maximum width */
+    margin: 15px auto 0;  /* Center the footer horizontally */
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-wrap: wrap; /* Allow columns to wrap to the next row on smaller screens */
+}
+
+.footer h4 {
+    color:aliceblue;
+}
+
+.footer .link-tree ul {
+    list-style-type: none;
+    padding-left:14px;
+}
+
+.footer .link-tree a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.footer .link-tree a:hover {
+    background-color: black;
+    color: chartreuse;
+}
+
+/* Styles for the logos column */
+.footer .logos {
+    flex: 1;
+}
+
+.footer .logos h4 {
+    margin-bottom: 10px;
+}
+
+.footer .logos img {
+    display: block;
+    max-width: 100px; /* Adjust logo size as needed */
+    margin-right: 10px; /* Add spacing between logos */
+}
+
+/* Styles for the contact column */
+.footer .contact {
+    flex: 1;
+    margin-top: 8px;
+}
+
+.footer .contact h4 {
+    margin-bottom: 10px;
+}
+
+.footer .contact p {
+    all: initial;
+    margin: 5px 0;
+}
+
+.footer .contact ul {
+    list-style-type: none;
+    margin-bottom: 90px;
+}
+
+.footer .contact a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.footer .contact a:hover {
+    background-color: black;
+    color: chartreuse;
+}
+
+.footer .contact p {
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+/* Copyright style */
+.footer .copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: aliceblue;
+}
+
+.footer .logos .logo-container {
+    display: block;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left:24px;
+}
+
+.footer .column {
+    flex: 1; /* Each column takes an equal portion of the available space */
+    padding: 0 10px; /* Add spacing between columns */
+    margin-bottom: 20px; /* Add spacing between columns */
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .footer .column {
+        flex: 100%; /* Each column takes up 100% width on smaller screens, stacking them */
+    }
+    .footer .link-tree ul {
+        padding-left:22px;
+    }
+    
+}
+

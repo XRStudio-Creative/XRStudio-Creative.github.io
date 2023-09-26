@@ -8,33 +8,57 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="styles.css">
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
+    <script type="text/javascript" src="scripting.js"></script>
 </head>
 
 <body>
 
+    <header>
+        <nav class="top-menu">
+            <div class="logo-container">
+                <!-- img class="small-logo" src="small-logo.png" alt="Small Logo"-->
+                <div class="small-logo" style="padding-left:20px"><a href="./index.html"><span style="color:chartreuse">XR</span><span style="color:white">Studio</span></a></div>
+                <a href="./index.html"><img class="large-logo" src="images/XR-StudioLogo.png" width="200" alt="Large Logo"></a>
+            </div>
+            <div class="menu-container">
+                <ul class="main-menu">
+                    <li><a href="./skills-services.html">Skills / Services</a></li>
+                    <li><a href="./games-virtual-worlds.html">Games / Virtual Worlds</a></li>
+                    <li><a href="./projects-portfolio.html">Projects / Portfolio</a></li>
+                    <li><a href="./achievements.html">Achievements</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
     <!-- Welcome to HTML/CSS code which I slapped together! Yes, this hidden message is for anybody taking a peek. -->
     <main>
+
         <div class="center">
             <div id="test">
+                <img src="images/XR-StudioLogo.png" height="255">
                 <ul aria-label="Welcome to XR Studio">
-                    <li class="zoom" id="first"><a href="https://www.facebook.com/XRStudio.Creative/"
+                    <li id="first"><a class="zoom" href="https://www.facebook.com/XRStudio.Creative/"
                             target="_blank">Facebook</a></li>
-                    <li class="zoom"><a href="https://www.youtube.com/@XRStudioCreative">Youtube</a></li>
-                    <li class="zoom"><a href="https://xr-studio.itch.io/" target="_blank">Itch.io</a></li>
-                    <li class="zoom"><a href="https://forums.coregames.com/u/chaz_scholton_xrstud/activity/portfolio"
+                    <li><a class="zoom" href="https://www.youtube.com/@XRStudioCreative">Youtube</a></li>
+                    <li><a class="zoom" href="https://xr-studio.itch.io/" target="_blank">Itch.io</a></li>
+                    <li><a class="zoom" href="https://forums.coregames.com/u/chaz_scholton_xrstud/activity/portfolio"
                             target="_blank">Core Creator Forums</a></li>
-                    <li class="zoom"><a href="https://www.coregames.com/user/98451989bc5a4a04ab3046bb57c3bda3"
+                    <li><a class="zoom" href="https://www.coregames.com/user/98451989bc5a4a04ab3046bb57c3bda3"
                             target="_blank">Core Games</a></li>
-                    <li class="zoom"><a href="https://dev.epicgames.com/community/profile/xm1oO/ChazScholton"
+                    <li><a class="zoom" href="https://dev.epicgames.com/community/profile/xm1oO/ChazScholton"
                             target="_blank">Epic Games Dev</a></li>
-                    <li class="zoom"><a href="https://www.reddit.com/user/XRStudio_" target="_blank">Reddit</a></li>
-                    <li class="zoom"><a href="https://www.linkedin.com/company/xrstudio-creative/"
+                    <li><a class="zoom" href="https://www.reddit.com/user/XRStudio_" target="_blank">Reddit</a></li>
+                    <li><a class="zoom" href="https://www.linkedin.com/company/xrstudio-creative/"
                             target="_blank">LinkedIn</a></li>
-                    <li class="zoom"><a href="https://xrstudio.gumroad.com/" target="_blank">Gumroad</a></li>                            
+                    <li><a class="zoom" href="https://xrstudio.gumroad.com/" target="_blank">Gumroad</a></li>                            
 
                 </ul>
             </div>
         </div>
+
 
         <section>
             <div class="center">
@@ -47,85 +71,9 @@
             </div>
         </section>
 
-        <div class="center" id="gamejams" style="color: aliceblue;">
-
-            <div class="mycontent">
-
-                <div class="center">
-                    <h2>Game Jam/Contest Wins</h2>
-                </div> 
-                
-                <p class="zoom">
-                    <strong>NFTemplate Jam (2022)</strong><br>
-                    "NFT Golem Project"&nbsp;Winner<br>
-                    Role: Solo Game Developer<br>
-                    &#127918; Game Link:&nbsp;&nbsp;<a href="https://www.coregames.com/games/67fe62/nft-golem-project"
-                        target="_blank">NFT Golem Project</a><br>
-                    &#127760; Announcement: <a
-                        href="https://discord.com/channels/547553459562610698/547560306142871573/997239638576074883"
-                        target="_blank">Discord Channel Announcement</a><br>
-                </p>
-
-
-                <p class="zoom">
-                    <strong>Holiday Jam - Core Games, IDG, GGJ (2022)</strong><br>
-                    "Holiday Valley Christmas 2021"&nbsp;Winner in 2021 Wrapped Category<br>
-                    Role: Solo Game Developer<br>
-                    &#127918; Game Link:&nbsp;&nbsp;<a
-                        href="https://www.coregames.com/games/43367a/holiday-valley-christmas-2021"
-                        target="_blank">Holiday Valley Christmas 2021</a><br>
-                    &#127760; Announcement: <a
-                        href="https://blog.coregames.com/announcing-the-holiday-jam-winners-b9a8255bcb0e"
-                        target="_blank">Announcing the Holiday Jam Winners!</a><br>
-                </p>
-
-                <p class="zoom">
-                    <strong>Core Traffic Jam (2021)</strong><br>
-                    "<em class="nt">Derby: World Championship</em>&nbsp;" -&nbsp; Best in Show (Grand Prize)<br>
-                    Role: Vehicle&nbsp;Design and Rigging<br>
-                    &#127918; Game Link:&nbsp;<a href="https://www.coregames.com/games/3977cc/derby-arena"
-                        target="_blank">Derby: World Championship</a><br>
-                    &#127760; Announcement: <a
-                        href="https://blog.coregames.com/crowning-the-winners-core-traffic-jam-f87218c9575e"
-                        target="_blank">Crowning the Winners &mdash; Core Traffic Jam</a><br>
-                </p>
-
-                <p class="zoom">
-                    <strong>Core Invitation Game Jam (2021)</strong><br>
-                    <em>"Infinity Arena"</em>&nbsp;-&nbsp;Best Shooter Category<br>
-                    Role: Level Designer for Wave Paradigm's team.<br>
-                    &#127918; Game Link:&nbsp;<a href="https://www.coregames.com/games/c565ef/infinity-arena"
-                        target="_blank">Infinity Arena</a><br>
-                    &#127760; Announcement: <a
-                        href="https://blog.coregames.com/the-core-invitational-game-jam-winners-ab887a0998df"
-                        target="_blank">The Core Invitational Game Jam Winners</a><br>
-                </p>
-
-                <p class="zoom">
-                    <strong>Core Spooky Jam (2020)</strong><br>
-                    "<em>Core Collapse</em>" -&nbsp;Best Sci-Fi Horror<br>
-                    Role:&nbsp; Primary Game Designer (Almost Solo Dev)<br>
-                    &#127918; Game Link:&nbsp;&nbsp;<a href="https://www.coregames.com/games/e9d14a/directcollapse"
-                        target="_blank">Core Collapse</a><br>
-                    &#127760; Announcement: <a
-                        href="https://medium.com/core-games/play-the-best-halloween-games-on-core-ab1ba2edf7a9"
-                        style="font-family: inherit;" target="_blank">Play The Best Halloween Games on Core</a><br>
-                </p>
-
-                <p class="zoom">
-                    <strong>Sinespace Weekly Contest (12/17/2020)</strong><br>
-                    "Jacuzzi Party Hot Tub&nbsp;" (3D asset) Weekly Contest 16<br>
-                    Role: 3D Artist Content Creator<br>
-                    &#127760; Announcement: <a href="https://sine.space/challenges/entry/all/19" target="_blank">Weekly
-                        Contest 16</a><br>
-                </p>
-
-            </div>
-        </div>
         <br>
-
+        <!--
         <section>
-
             <div class="mycontent">
                 <div class="center">
                     <h2>Platforms and Game Engines</h2>
@@ -158,8 +106,9 @@
                         style="max-width: 200px;margin:20px">
                 </div>
             </div>
-        </section>
-
+        </section>|
+        -->
+        <!--
         <section>
             <div class="center zoom">
                 <model-viewer id="#model-viewer" src="./3d/Horizonal Logo.glb" ar
@@ -167,8 +116,106 @@
                 </model-viewer>
             </div>
         </section>
+    -->
 
-        <footer>XRStudio</footer>
+        <footer class="footer">
+            <div class="column logos">
+                <h4>Platforms / Game Engines</h4><br>
+                <div class="logo-container">
+                    <a href="https://www.unrealengine.com" target="_blank"><img 
+                        src="/images/UE_Logo_horizontal_unreal-engine_white.png"
+                        style="max-width: 200px; min-width:200px; margin-bottom: 12px;"></a>
+                        <a href="https://www.fortnite.com/creative" target="_blank"><img 
+                            src="/images/logo-fortnite-creative.svg"
+                            style="max-width: 90px;margin-left:6px;margin-bottom:18px"></a>
+                    <a href="https://www.coregames.com" target="_blank"><img  
+                            src="/images/Core_GFX_Logo.png" style="max-width: 120x; min-width:120px; margin-left:-5px;"></a>
+                    <a href="https://www.sansar.com" target="_blank"><img 
+                            src="/images/Sansar_Logo_Small.svg" style="max-width: 130px; min-width:130px;margin-top:10px;margin-left:0px;"></a>
+                    <a href="https://www.themirror.space" target="_blank"><img 
+                            src="/images/62acc19eec10b97d2502d6db_Mirror-LargeHorizontal-White.svg"
+                            style="max-width: 170px; min-width:170px;margin-left:-6px;margin-top:-2px;"></a>
+                                                   
+                </div>
+            </div>
+    
+            <div class="column link-tree">
+                <h4>On Social Media</h4>
+                <ul>
+                    <li id="first"><a class="zoom" href="https://www.facebook.com/XRStudio.Creative/"
+                            target="_blank">Facebook</a></li>
+                    <li><a class="zoom" href="https://www.youtube.com/@XRStudioCreative">Youtube</a></li>
+                    <li><a class="zoom" href="https://xr-studio.itch.io/" target="_blank">Itch.io</a></li>
+                    <li><a class="zoom" href="https://forums.coregames.com/u/chaz_scholton_xrstud/activity/portfolio"
+                            target="_blank">Core Creator Forums</a></li>
+                    <li><a class="zoom" href="https://dev.epicgames.com/community/profile/xm1oO/ChazScholton"
+                            target="_blank">Epic Games Dev Community</a></li>
+                </ul>
+            </div>
+            <div class="column contact">
+                <img src="/images/XRStudio3Dlogo.png" width="200">
+                <ul>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                    <li><a href="/privacy-policy.html">Privacy Policy</a></li>
+                </ul>
+                <p>&copy; 2023 XRStudio. All rights reserved.</p>
+            </div>
+        </footer>
+    
+
+        <script>
+            const rotatingElement = document.getElementById('test');
+            const imageDirectory = 'images/';
+            const images = [
+                'cyberpunk-woman.png',
+                'pexels-rdne-stock-project-7915289.jpg',
+                'pexels-julia-m-cameron-4144923.jpg',
+                'cover-pexels-2.png',
+                'CyberpunkCity.jpg',
+                'cover-pexels-alessia-lorenzi-18409678.png',
+                'pexels-martin-lopez-2225616.jpg',
+                'pexels-alena-darmel-7862511.jpg'
+            ]; // Replace with your image filenames
+    
+            let currentIndex = 0;
+    
+            // Function to preload an image
+            function preloadImage(url) {
+                return new Promise((resolve, reject) => {
+                    const img = new Image();
+                    img.src = url;
+                    img.onload = resolve;
+                    img.onerror = reject;
+                });
+            }
+    
+            // Function to check if an image exists
+            async function imageExists(url) {
+                return new Promise((resolve) => {
+                    const img = new Image();
+                    img.src = url;
+                    img.onload = () => resolve(true);
+                    img.onerror = () => resolve(false);
+                });
+            }
+
+            // Function to preload all images
+            async function preloadImages(imageUrls) {
+                const preloadPromises = imageUrls.map(url => preloadImage(imageDirectory + url));
+                await Promise.all(preloadPromises);
+            }
+
+            async function rotateImages() {
+                await preloadImages(images); // Preload all images
+                rotatingElement.style.backgroundImage = `url(${imageDirectory + images[currentIndex]})`;
+                currentIndex = (currentIndex + 1) % images.length;
+            }
+    
+            setInterval(rotateImages, 5000); // Change image every 5 seconds (adjust as needed)
+            rotateImages(); // Initialize with the first image
+        </script>        
+        
 
     </main>
 </body>
