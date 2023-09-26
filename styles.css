@@ -140,8 +140,6 @@ model-viewer {
 .video-wrapper {
     /* Telling our absolute positioned video to be relative to this element */
     position: relative;
-    width: 400px;
-    height: 200px;
 
     /* Will not allow the video to overflow the container */
     overflow: hidden;
@@ -151,7 +149,7 @@ model-viewer {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: clamp(600px, 1080px, 1080px);
+    width: clamp(600px, 800px, 800px);
     height: auto;
     aspect-ratio: 16/9;
 }
