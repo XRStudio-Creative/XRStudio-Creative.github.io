@@ -54,23 +54,6 @@ body {
 }
 
 
-@media screen and (max-width:600px) {
-    #test {
-        width: 140vw;
-        height: 140vw;
-    }
-
-    #test img {
-        display: none;
-        width: 50vw;
-        height: 34vw;
-    }
-
-    #test ul {
-        /* margin-top: 38vw; */
-        margin-left: 30px;
-    }
-}
 
 #test a {
     color: aliceblue;
@@ -278,4 +261,26 @@ strong {
 
 .main-content p {
     color: white;
+}
+
+@media screen and (max-width:600px) {
+    #test {
+        width: 140vw;
+        height: 140vw;
+    }
+
+    #test img {
+        display: none;
+        width: 50vw;
+        height: 34vw;
+    }
+
+    .video-wrapper {
+        display: none;
+    }
+
+    #test ul {
+        /* margin-top: 38vw; */
+        margin-left: 30px;
+    }
 }
