@@ -1,10 +1,10 @@
+/* Style the top navigation menu */
+
 header {
     display: flex;
     width: 100%;
     justify-content: center;
-    /* Center the contents horizontally within the main-menu */
     align-items: center;
-    /* Ensure it appears above other content */
     position: sticky;
     top: 0;
     z-index: 100;
@@ -16,7 +16,6 @@ header {
     -o-transition: opacity 0.3s ease-in-out;
 }
 
-/* Style the top navigation menu */
 .top-menu {
     background-color: #322e3d;
     display: flex;
@@ -44,12 +43,10 @@ header {
     margin-right: 10px;
     margin: 0;
     padding: 0;
-    font-size:22px;
 }
 
 .large-logo {
     display: none;
-    /* Hide the large logo by default */
 }
 
 .main-menu {
@@ -59,7 +56,6 @@ header {
     padding: 0;
 }
 
-/* When the menu should fade out (e.g., when it goes away), set the opacity to 0 */
 .menu-hidden {
     opacity: 0;
 }
@@ -78,12 +74,8 @@ header {
 
 .main-menu a, .small-logo a {
     text-decoration: none;
-    color: #fff;
-    /* Text color for menu items */
     font-size: 14px;
-    /* Adjust font size as needed */
     color: aliceblue;
-    text-decoration: none;
     padding: 12px;
 }
 
@@ -98,21 +90,27 @@ header {
 }
 
 /* Media query for responsive design */
-@media screen and (max-width: 600px) {
-    .small-logo {
-        display: none;
-        /* Hide the small logo on smaller devices */
-    }
-
-    .large-logo {
+@media screen and (max-width: 1024px) {
+    .top-menu {
         display: block;
-        width: 300px;
-        /* Display the large logo on smaller devices */
+        text-align: center;
+    }
+    .top-menu .logo-container {
+        display:block;
+        scale: 2.5;
+    }
+    
+    .top-menu .small-logo{
+        margin: 24px;
     }
 
-    .menu-container {
+    .top-menu .small-logo a:hover {
+        box-shadow: none;
+    }
+
+    .top-menu .menu-container {
+        display: block;
         text-align: center;
-        /* Center-align the menu items on smaller devices */
     }
 
     /* Remove sticky positioning on smaller screens */
@@ -122,10 +120,47 @@ header {
         z-index: auto;
     }
 
-    .main-menu li {
+    .top-menu .main-menu ul {
         display: block;
         margin: 5px 0px;
         padding: 5px 0;
-        /* Adjust padding for mobile devices */
+    }
+
+}
+
+/* Media query for responsive design */
+@media screen and (max-width: 768px) {
+    .top-menu {
+        display: flex;
+    }
+    .top-menu .logo-container {
+        display: flex;
+        scale: 1.0;
+    }
+    .top-menu .small-logo {
+        display: none;
+    }
+
+
+    .top-menu .large-logo {
+        display: block;
+        width: 300px;
+    }
+
+    .top-menu .menu-container {
+        text-align: center;
+    }
+
+    /* Remove sticky positioning on smaller screens */
+    header {
+        position: static;
+        top: auto;
+        z-index: auto;
+    }
+
+    .top-menu .main-menu li {
+        display: block;
+        margin: 5px 0px;
+        padding: 5px 0;
     }
 }

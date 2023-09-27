@@ -1,14 +1,19 @@
-/* styles.css */
-
 /* Base styles for the entire footer */
+
 .footer {
-    max-width: 1000px; /* Set the maximum width */
-    margin: 15px auto 0;  /* Center the footer horizontally */
+    max-width: 1000px; 
+    margin: 15px auto 0; 
+    margin-bottom: 50px;
     display: flex;
     justify-content: space-between;
     padding: 20px;
     box-sizing: border-box;
-    flex-wrap: wrap; /* Allow columns to wrap to the next row on smaller screens */
+    flex-wrap: wrap; 
+}
+
+.footer li {
+    padding: 6px;
+    margin-top: 6px;
 }
 
 .footer h4 {
@@ -30,7 +35,6 @@
     color: chartreuse;
 }
 
-/* Styles for the logos column */
 .footer .logos {
     flex: 1;
 }
@@ -41,11 +45,23 @@
 
 .footer .logos img {
     display: block;
-    max-width: 100px; /* Adjust logo size as needed */
-    margin-right: 10px; /* Add spacing between logos */
+    max-width: 100px;
+    margin-right: 10px;
+    transition: transform .3s;
+    -webkit-transition: transform .3s;
+    -moz-transition: transform .3s;
+    -ms-transition: transform .3s;
+    -o-transition: transform .3s;
 }
 
-/* Styles for the contact column */
+.footer .logos img:hover {
+    transform: scale(1.4) translate(0px, 0px);
+    -webkit-transform: scale(1.4) translate(0px, 0px);
+    -moz-transform: scale(1.4) translate(0px, 0px);
+    -ms-transform: scale(1.4) translate(0px, 0px);
+    -o-transform: scale(1.4) translate(0px, 0px);
+}
+
 .footer .contact {
     flex: 1;
     margin-top: 8px;
@@ -82,7 +98,6 @@
     text-decoration: none;
 }
 
-/* Copyright style */
 .footer .copyright {
     text-align: center;
     margin-top: 20px;
